@@ -1,0 +1,228 @@
+.checkbox_container label, .radio_container label{
+  font-weight: normal;
+}
+
+.tableless label { 
+  display: block; margin-top: 1.5em; padding-bottom: 3px;
+}
+
+.tableless .checkbox_container label, .tableless .radio_container label {
+  display: inline;
+}
+label{
+  color:$red;
+  font-size:0.75em;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+input[type="search"] {
+	padding: 6px;
+	background: url("../../tl_files/theme/img/form_schatten.png") repeat-x scroll left top transparent;
+	border: 1px solid #E1E1E1;
+}
+
+input[type="text"],
+input[type="password"], 
+textarea, 
+input[type="search"] { 
+	width: 60%;
+}
+
+.mod_subscribe input[type="text"] { 
+	width: 210px;
+}
+
+textarea { 
+	width: 90%; 
+	height: 140px;
+}
+
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+textarea:focus { 
+	background: url("../../tl_files/theme/img/form_schatten.png") repeat-x scroll left top transparent; 
+	border: 1px solid #CFCFCF;
+}
+
+select { 
+	width: 63%; 
+	padding: 4px 3px 4px 1px; 
+	background: url("../../tl_files/theme/img/form_schatten.png") repeat-x scroll left top transparent; 
+	border: 1px solid #CCCCCC;
+}
+
+.checkbox_container span, 
+.radio_container span { 
+	display: block; 
+}
+
+.checkbox_container + br, 
+.radio_container + br {
+	display: none;
+}
+
+.checkbox_container label,
+.checkbox_container input { 
+	vertical-align: middle; 
+}
+
+.tableless input[type="checkbox"], 
+x:-moz-any-link {
+	top: -2px; 
+	position: relative; 
+}
+
+.checkbox_container { 
+	margin-top: 10px; 
+}
+
+input[type="radio"], 
+x:-moz-any-link {
+	top: 2px; 
+	position: relative; 
+}
+
+.submit_container { 
+	margin-top: 1em; 
+	margin-bottom: 1em; 
+}
+
+form table td { 
+	padding-top: 3px; 
+	padding-bottom: 3px; 
+}
+
+form table td:first-child { 
+	width: 45%; 
+	padding-bottom: 0px; 
+	text-align: left; 
+}
+
+.tableform table { 
+	width: 92%; 
+	margin-top: 1.5em; 
+	margin-bottom: 0px; 
+}
+
+.tableform .formbody, 
+.tableless .formbody { 
+	width: 95%; 
+	overflow: hidden;
+}
+
+.tableless .formbody { 
+	padding-top: 0px; 
+}
+
+legend { 
+	padding-right: 6px; 
+	font-size: 14px; 
+	color: #00ADF1; 
+}
+
+fieldset table { 
+	width: 92%; 
+	margin-top: 1em ! important; 
+	margin-bottom: 1em ! important; 
+}
+
+fieldset table td:first-child { 
+	width: 140px; 
+	text-align: left; 
+}
+
+span.mandatory { 
+	display: inline; 
+	padding-left: 2px; 
+	font-weight: bold; 
+	color: #FF0000;
+}
+	
+p.confirm { 
+	font-size: 16px; 
+	color: #00ADF1; 
+}
+
+p.error { 
+	margin-bottom: 6px; 
+	font-size: 11px; 
+	font-weight: bold; 
+	color: #FF0000; 
+}
+
+input.error[type="text"],
+input.error[type="password"], 
+textarea.error { 
+	background-color: #FFFFDD; 
+	border-color: #FF0000; 
+}
+
+input.captcha { 
+	width: 48px; 
+	margin-right: 6px; 
+}
+
+span.captcha_text { 
+	font-weight: normal; 
+	color: #808080; 
+}
+:first-child + html span.captcha_text { 
+	top: -3px; 
+	position: relative; 
+}
+
+.submit { 
+	display: inline-block; 
+	padding: 2px 6px; 
+	color: #000000; 
+}
+
+.submit:hover { 
+	display: inline-block; 
+	color: #7A7A7A; 
+	cursor: pointer; 
+}
+
+select {
+	width: 63%; 
+	padding: 4px 3px 4px 1px; 
+	background: url("../../tl_files/theme/img/form_schatten.png") repeat-x scroll left top transparent; 
+	border: 1px solid #CCCCCC; 
+}
+
+.checkbox_container span, 
+.radio_container span { 
+	display: block; 
+}
+
+.checkbox_container + br, 
+.radio_container + br { 
+	display: none; 
+}
+
+.checkbox_container label, 
+.checkbox_container input { 
+	vertical-align: middle; 
+}
+
+.tableless input[type="checkbox"], 
+x:-moz-any-link { 
+	top: -2px; 
+	position: relative; 
+}
+
+.checkbox_container { 
+	margin-top: 10px; 
+}
+
+input[type="radio"], 
+x:-moz-any-link { 
+	top: 2px; 
+	position: relative; 
+}
+.submit_container { 
+	margin-top: 1em; 
+	margin-bottom: 1em; 
+}
