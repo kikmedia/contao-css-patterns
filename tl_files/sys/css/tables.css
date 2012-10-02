@@ -1,0 +1,31 @@
+/* tables */
+.ce_table {
+    padding:1px;
+}
+
+.ce_table table {
+    width:98%;
+}
+
+.ce_table th, .ce_table tfoot td {
+    padding:6px;
+    background-color:#E8E8E8;
+    border:1px solid #C8CBD0;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+}
+
+.ce_table.verlauf_tabh th {
+    border-bottom:1px solid #00ADF1;
+    background: url("../../tl_files/theme/img/kalender.png") repeat-x scroll left center #E8E8E8;
+}
+
+.ce_table td {
+    padding:6px;
+    background-color:#FFF;
+    border:1px solid #C8CBD0;
+    font-size:12px;
+}
