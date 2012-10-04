@@ -63,6 +63,13 @@ select {
 	display: none;
 }
 
+.checkbox_container label,
+.checkbox_container input,
+.radio_container label,
+.radio_container input{ 
+	vertical-align: middle; 
+}
+
 .tableless input[type="checkbox"], 
 x:-moz-any-link {
 	top: -2px; 
@@ -75,7 +82,7 @@ x:-moz-any-link {
 
 input[type="radio"], 
 x:-moz-any-link {
-	top: 2px; 
+	top: 0px; 
 	position: relative; 
 }
 
